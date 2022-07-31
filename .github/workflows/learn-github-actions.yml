@@ -2,7 +2,7 @@ name: learn-github-actions
 on:
   push:
   schedule:
-    - cron: '* * * * */5'
+    - cron: '*/5 * * * *'
 
 jobs:
   check-bats-version:
